@@ -24,7 +24,7 @@ def index():
 
     cities = City.query.all()
 
-    url = 'http://api.openweathermap.org/data/2.5/weather?q={}&units=imperial&appid=ef31735e21cfe324446197ccc7b5fa17'
+    url = ''
     city = 'Las Vegas'
 
     weather_data = []
